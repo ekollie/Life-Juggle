@@ -1,0 +1,59 @@
+// Example
+{
+  "Scenarios": [
+    {
+      "id": 1,
+      "prompt_text": "Text scenario is described here",
+      "choices": [
+        {
+          "choice_text": "Choice is described here",
+          "a_change": 10,
+          "b_change": -15,
+          "c_change": 0
+        },
+        {
+          "choice_text": "Choice is described here",
+          "a_change": -15,
+          "b_change": 10,
+          "c_change": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt_text": "Text scenario is described here",
+      "choices": [
+        {
+          "choice_text": "Choice is described here",
+          "a_change": 25,
+          "b_change": 0,
+          "c_change": -15
+        },
+        {
+          "choice_text": "Choice is described here",
+          "a_change": 5,
+          "b_change": 10,
+          "c_change": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "prompt_text": "Text scenario is described here",
+      "choices": [
+        {
+          "choice_text": "Choice is described here",
+          "a_change": 0,
+          "b_change": 15,
+          "c_change": -20
+        },
+        {
+          "choice_text": "Choice is described here",
+          "a_change": 0,
+          "b_change": -20,
+          "c_change": 15
+        }
+      ]
+    }
+  ]
+}
