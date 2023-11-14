@@ -1,57 +1,100 @@
-
 {
   "Scenarios": [
     {
       "id": 1,
-      "prompt_text": "Text scenario is described here",
+      "prompt_text": "Click any button to start",
       "choices": [
         {
-          "choice_text": "Choice is described here",
-          "a_change": 10,
-          "b_change": -15,
-          "c_change": 0
+          "choice_text": "Choice A",
+          "change": [0, 0, 0]
         },
         {
-          "choice_text": "Choice is described here",
-          "a_change": -15,
-          "b_change": 10,
-          "c_change": 0
+          "choice_text": "Choice B",
+          "change": [0, 0, 0]
         }
       ]
     },
     {
       "id": 2,
-      "prompt_text": "Text scenario is described here",
+      "prompt_text": "Your friends invite to a party the night before a coding challenge",
       "choices": [
         {
-          "choice_text": "Choice is described here",
-          "a_change": 25,
-          "b_change": 0,
-          "c_change": -15
+          "choice_text": "I stay home and study. There will always be more parties",
+          "change": [-5, 5, 10]
         },
         {
-          "choice_text": "Choice is described here",
-          "a_change": 5,
-          "b_change": 10,
-          "c_change": 0
+          "choice_text": "Darn it, I'm going. I'll just shoot for the retake",
+          "change": [10, -5, -10]
         }
       ]
     },
     {
       "id": 3,
-      "prompt_text": "Text scenario is described here",
+      "prompt_text": "Group Study Session or Movie Night?",
       "choices": [
         {
-          "choice_text": "Choice is described here",
-          "a_change": 0,
-          "b_change": 15,
-          "c_change": -20
+          "choice_text": "I join the study session. Academic success is a team effort.",
+          "change": [5, 10, -5]
         },
         {
-          "choice_text": "Choice is described here",
-          "a_change": 0,
-          "b_change": -20,
-          "c_change": 15
+          "choice_text": "I skip the study session and opt for a movie night with friends.",
+          "change": [-5, 5, -10]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "prompt_text": "Team Project Deadline Approaching",
+      "choices": [
+        {
+          "choice_text": "I stay up with the team to ensure the project is top-notch.",
+          "change": [5, 10, -10]
+        },
+        {
+          "choice_text": "I prioritize my sleep. I'll contribute as much as I can and trust my team to handle the rest.",
+          "change": [-5, 5, 5]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "prompt_text": "Unexpected Family Gathering",
+      "choices": [
+        {
+          "choice_text": "I prioritize family and attend the gathering. Projects can wait.",
+          "change": [5, -5, -10]
+        },
+        {
+          "choice_text": "I explain my commitments and opt for a shorter visit to balance family and personal responsibilities.",
+          "change": [2, 2, -5]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "prompt_text": "Concert Invitation",
+      "choices": [
+        {
+          "choice_text": "I go to the concert. A good time and music can be inspiring for the presentation.",
+          "change": [5, -5, -10]
+        },
+        {
+          "choice_text": "I decline and focus on preparing for the presentation. The concert can wait for another time.",
+          "change": [-5, 5, 10]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "prompt_text": "Volunteer Opportunity",
+      "choices": [
+        {
+          "choice_text": "I seize the chance to make a difference and join the volunteer event.",
+          "change": [5, 5, -5]
+        },
+        {
+          "choice_text": "I decline this time, prioritizing my ongoing commitments. I'll look for future opportunities.",
+          "change": [-2, -2, 2]
         }
       ]
     }
