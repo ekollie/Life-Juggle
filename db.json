@@ -2,99 +2,33 @@
   "Scenarios": [
     {
       "id": 1,
-      "prompt_text": "Click any button to start",
+      "prompt_text": "You find out that your school is organizing a talent show, and you have the option to participate. How would you like to approach this opportunity?",
       "choices": [
         {
-          "choice_text": "Choice A",
-          "change": [0, 0, 0]
+          "preview": "Hone Your Talent",
+          "choice_text": "Take singing lessons and showcase your vocal skills at the talent show.",
+          "change": [0, 2, 0]
         },
         {
-          "choice_text": "Choice B",
-          "change": [0, 0, 0]
+          "preview": "Decline the Opportunity",
+          "choice_text": "Decide not to participate and focus on other aspects of your school life.",
+          "change": [0, -1, 0]
         }
       ]
     },
     {
       "id": 2,
-      "prompt_text": "Your friends invite to a party the night before a coding challenge",
+      "prompt_text": "As exams approach, you're considering different study approaches. How do you plan to prepare for your upcoming exams?",
       "choices": [
         {
-          "choice_text": "I stay home and study. There will always be more parties",
-          "change": [-5, 5, 10]
+          "preview": "Join a Study Group",
+          "choice_text": "Form a study group with classmates to collaborate on assignments and prepare for exams together.",
+          "change": [1, 2, 0]
         },
         {
-          "choice_text": "Darn it, I'm going. I'll just shoot for the retake",
-          "change": [10, -5, -10]
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "prompt_text": "Group Study Session or Movie Night?",
-      "choices": [
-        {
-          "choice_text": "I join the study session. Academic success is a team effort.",
-          "change": [5, 10, -5]
-        },
-        {
-          "choice_text": "I skip the study session and opt for a movie night with friends.",
-          "change": [-5, 5, -10]
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "prompt_text": "Team Project Deadline Approaching",
-      "choices": [
-        {
-          "choice_text": "I stay up with the team to ensure the project is top-notch.",
-          "change": [5, 10, -10]
-        },
-        {
-          "choice_text": "I prioritize my sleep. I'll contribute as much as I can and trust my team to handle the rest.",
-          "change": [-5, 5, 5]
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "prompt_text": "Unexpected Family Gathering",
-      "choices": [
-        {
-          "choice_text": "I prioritize family and attend the gathering. Projects can wait.",
-          "change": [5, -5, -10]
-        },
-        {
-          "choice_text": "I explain my commitments and opt for a shorter visit to balance family and personal responsibilities.",
-          "change": [2, 2, -5]
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "prompt_text": "Concert Invitation",
-      "choices": [
-        {
-          "choice_text": "I go to the concert. A good time and music can be inspiring for the presentation.",
-          "change": [5, -5, -10]
-        },
-        {
-          "choice_text": "I decline and focus on preparing for the presentation. The concert can wait for another time.",
-          "change": [-5, 5, 10]
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "prompt_text": "Volunteer Opportunity",
-      "choices": [
-        {
-          "choice_text": "I seize the chance to make a difference and join the volunteer event.",
-          "change": [5, 5, -5]
-        },
-        {
-          "choice_text": "I decline this time, prioritizing my ongoing commitments. I'll look for future opportunities.",
-          "change": [-2, -2, 2]
+          "preview": "Solo Study Session",
+          "choice_text": "Opt for a quiet solo study session to concentrate on individual learning.",
+          "change": [-1, 1, 0]
         }
       ]
     }
