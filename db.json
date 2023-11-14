@@ -1,102 +1,150 @@
 {
-  "Scenarios": [
+  “Scenarios": [
     {
       "id": 1,
-      "prompt_text": "Click any button to start",
+      "prompt_text": "Your friend invites you to a late-night movie marathon on a weekday. Do you join for the social fun, or prioritize a good night's sleep for your health and school commitments the next day?",
       "choices": [
         {
-          "choice_text": "Choice A",
-          "change": [0, 0, 0]
+          "preview": "Join the Movie Marathon",
+          "choice_text": "Participate in the movie marathon for social enjoyment, but be mindful of setting a limit to ensure adequate sleep for health and school.",
+          "change": [3, -2, -1]
         },
         {
-          "choice_text": "Choice B",
-          "change": [0, 0, 0]
+          "preview": "Prioritize Sleep",
+          "choice_text": "Opt to prioritize a good night's sleep to maintain overall health and be well-rested for school the next day, suggesting alternative plans for another time.",
+          "change": [1, 2, 3]
         }
       ]
     },
     {
       "id": 2,
-      "prompt_text": "Your friends invite to a party the night before a coding challenge",
+      "prompt_text": "Your classmate invites you to a study group the night before a major exam. Do you join for collaborative learning and social support, or study independently to maintain focus?",
       "choices": [
         {
-          "choice_text": "I stay home and study. There will always be more parties",
-          "change": [-5, 5, 10]
+          "preview": "Join Study Group",
+          "choice_text": "Participate in the study group for collaborative learning and social support, but establish boundaries to ensure productive study time.",
+          "change": [2, 2, -1]
         },
         {
-          "choice_text": "Darn it, I'm going. I'll just shoot for the retake",
-          "change": [10, -5, -10]
+          "preview": "Study Independently",
+          "choice_text": "Choose to study independently to maintain focus and control over your study environment, ensuring efficient preparation for the exam.",
+          "change": [-1, 3, 1]
         }
       ]
     },
     {
       "id": 3,
-      "prompt_text": "Group Study Session or Movie Night?",
+      "prompt_text": "Your parents want you to attend a family gathering during a crucial study weekend. Do you join for family bonding, or communicate the importance of your academic commitments and stay home to focus on studies?",
       "choices": [
         {
-          "choice_text": "I join the study session. Academic success is a team effort.",
-          "change": [5, 10, -5]
+          "preview": "Attend Family Gathering",
+          "choice_text": "Participate in the family gathering for bonding but communicate your study commitments, perhaps negotiating specific study times during the event.",
+          "change": [2, -3, -2]
         },
         {
-          "choice_text": "I skip the study session and opt for a movie night with friends.",
-          "change": [-5, 5, -10]
+          "preview": "Prioritize Studies",
+          "choice_text": "Choose to stay home and focus on studies, emphasizing the importance of academic commitments while expressing willingness to engage in family activities at a more suitable time.",
+          "change": [-2, 3, 2]
         }
       ]
     },
     {
       "id": 4,
-      "prompt_text": "Team Project Deadline Approaching",
+      "prompt_text": "Your friends plan a spontaneous road trip over the weekend. Do you join for the adventure and social experience, or decline to focus on your upcoming exams and prioritize your academic responsibilities?",
       "choices": [
         {
-          "choice_text": "I stay up with the team to ensure the project is top-notch.",
-          "change": [5, 10, -10]
+          "preview": "Join the Road Trip",
+          "choice_text": "Embark on the road trip for a spontaneous adventure, but communicate the need for designated study breaks to balance socializing with academic commitments.",
+          "change": [3, -2, -2]
         },
         {
-          "choice_text": "I prioritize my sleep. I'll contribute as much as I can and trust my team to handle the rest.",
-          "change": [-5, 5, 5]
+          "preview": "Prioritize Exams",
+          "choice_text": "Opt to decline the road trip to concentrate on exam preparation, emphasizing the importance of academic responsibilities and proposing alternative plans for after exams.",
+          "change": [-1, 3, 2]
         }
       ]
     },
     {
       "id": 5,
-      "prompt_text": "Unexpected Family Gathering",
+      "prompt_text": "You're feeling overwhelmed with schoolwork and extracurricular activities. Do you ask for help or support from friends or family, or try to manage the stress on your own to avoid burdening others?",
       "choices": [
         {
-          "choice_text": "I prioritize family and attend the gathering. Projects can wait.",
-          "change": [5, -5, -10]
+          "preview": "Seek Support",
+          "choice_text": "Reach out to friends or family for emotional support and assistance in managing workload, fostering a collaborative approach to cope with stress.",
+          "change": [3, -2, -1]
         },
         {
-          "choice_text": "I explain my commitments and opt for a shorter visit to balance family and personal responsibilities.",
-          "change": [2, 2, -5]
+          "preview": "Manage Stress Independently",
+          "choice_text": "Choose to manage stress independently to avoid burdening others, but consider establishing healthier coping mechanisms and self-care routines.",
+          "change": [-2, 2, 1]
         }
       ]
     },
     {
       "id": 6,
-      "prompt_text": "Concert Invitation",
+      "prompt_text": "Your school organizes a charity event, and they're looking for volunteers. Do you sign up to contribute to the community and gain social experiences, or decline to focus on personal activities and school commitments?",
       "choices": [
         {
-          "choice_text": "I go to the concert. A good time and music can be inspiring for the presentation.",
-          "change": [5, -5, -10]
+          "preview": "Volunteer for Charity Event",
+          "choice_text": "Sign up to volunteer for the charity event, contributing to the community and gaining valuable social experiences, while balancing commitments.",
+          "change": [2, -1, -1]
         },
         {
-          "choice_text": "I decline and focus on preparing for the presentation. The concert can wait for another time.",
-          "change": [-5, 5, 10]
+          "preview": "Focus on Personal Activities",
+          "choice_text": "Decline the volunteer opportunity to focus on personal activities and school commitments, ensuring a balance between community engagement and personal responsibilities.",
+          "change": [-1, 1, 1]
         }
       ]
     },
     {
       "id": 7,
-      "prompt_text": "Volunteer Opportunity",
+      "prompt_text": "Your friends invite you to a late-night gaming session. Do you join for the social fun, or prioritize a good night's sleep for your health and school commitments the next day?",
       "choices": [
         {
-          "choice_text": "I seize the chance to make a difference and join the volunteer event.",
-          "change": [5, 5, -5]
+          "preview": "Join the Gaming Session",
+          "choice_text": "Participate for social fun but set a time limit to ensure enough sleep for health and school.",
+          "change": [2, -2, -1]
         },
         {
-          "choice_text": "I decline this time, prioritizing my ongoing commitments. I'll look for future opportunities.",
-          "change": [-2, -2, 2]
+          "preview": "Prioritize Sleep",
+          "choice_text": "Opt for a good night's sleep, ensuring you're well-rested for school, and suggest an alternative time for gaming.",
+          "change": [1, 2, 2]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "prompt_text": "A classmate invites you to a party the night before a major project deadline. Do you attend for socializing, or stay home to focus on completing the project?",
+      "choices": [
+        {
+          "preview": "Attend the Party",
+          "choice_text": "Go to the party for socializing but communicate your project deadline and set a time to leave early to work on it.",
+          "change": [3, -2, -2]
+        },
+        {
+          "preview": "Focus on the Project",
+          "choice_text": "Choose to stay home and prioritize completing the project, emphasizing its importance over social events.",
+          "change": [-1, 3, 2]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "prompt_text": "Your school offers a yoga class during lunch break. Do you join for the health benefits and social interaction, or use the time to study for an upcoming exam?",
+      "choices": [
+        {
+          "preview": "Join Yoga Class",
+          "choice_text": "Participate in the yoga class for health benefits and social interaction, ensuring a balanced approach to well-being.",
+          "change": [2, -1, 1]
+        },
+        {
+          "preview": "Study During Lunch",
+          "choice_text": "Opt to study during lunch to prepare for the exam, prioritizing academic commitments over physical activity and socializing.",
+          "change": [-1, 2, -1]
         }
       ]
     }
   ]
 }
+
+ 
