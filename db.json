@@ -143,7 +143,88 @@
           "change": [-1, 2, -1]
         }
       ]
+    },
+    {
+      "id": 10,
+      "prompt_text": "You're invited to a networking event that aligns with your career goals, but it falls on the same day as a close friend's birthday party. Do you prioritize your professional development or celebrate with your friend?",
+      "choices": [
+        {
+          "preview": "Attend Networking Event",
+          "choice_text": "Attend the networking event to enhance professional opportunities, but communicate with your friend and plan a belated celebration.",
+          "change": [3, -1, 0]
+        },
+        {
+          "preview": "Celebrate Friend's Birthday",
+          "choice_text": "Celebrate your friend's birthday, prioritizing personal connections, and express your commitment to professional growth on another occasion.",
+          "change": [2, 0, -1]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "prompt_text": "You have the opportunity to travel abroad for a cultural exchange program during the semester, but it conflicts with an important internship opportunity. Do you choose international experience or prioritize gaining industry-specific skills?",
+      "choices": [
+        {
+          "preview": "Join Cultural Exchange Program",
+          "choice_text": "Opt for the cultural exchange program for diverse experiences, but explore possibilities to defer the internship or find alternative remote work.",
+          "change": [4, -2, 1]
+        },
+        {
+          "preview": "Prioritize Internship",
+          "choice_text": "Prioritize the internship to gain industry-specific skills, expressing gratitude for the opportunity and exploring cultural experiences at a later time.",
+          "change": [-1, 3, -1]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "prompt_text": "Your friend asks you to cover for them at work because they want to attend a family event. Do you agree to help out, or prioritize your own commitments and decline?",
+      "choices": [
+        {
+          "preview": "Help Friend at Work",
+          "choice_text": "Agree to cover for your friend, prioritizing friendship and offering support, but communicate any potential limitations or conditions.",
+          "change": [2, -1, -1]
+        },
+        {
+          "preview": "Prioritize Own Commitments",
+          "choice_text": "Politely decline to cover for your friend, emphasizing your own commitments, and suggest alternative solutions if possible.",
+          "change": [-1, 1, 0]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "prompt_text": "You find out about a scholarship opportunity that requires a significant time investment in community service. Do you pursue the scholarship for potential financial benefits, or focus on other activities aligned with your career goals?",
+      "choices": [
+        {
+          "preview": "Pursue Scholarship Through Community Service",
+          "choice_text": "Invest time in community service for the scholarship, balancing financial benefits with the potential for personal growth and contribution.",
+          "change": [3, 0, 1]
+        },
+        {
+          "preview": "Focus on Career-Aligned Activities",
+          "choice_text": "Prioritize activities aligned with your career goals, considering alternative financial options and focusing on professional development.",
+          "change": [1, 0, 0]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "prompt_text": "You have the chance to collaborate on a creative project with classmates over the weekend, but it conflicts with a family gathering. Do you prioritize the collaborative opportunity or family time?",
+      "choices": [
+        {
+          "preview": "Collaborate on Creative Project",
+          "choice_text": "Join your classmates for the creative project, emphasizing the importance of the opportunity and exploring ways to make up for missed family time.",
+          "change": [2, -1, 0]
+        },
+        {
+          "preview": "Prioritize Family Gathering",
+          "choice_text": "Prioritize the family gathering, communicating the importance of family and seeking alternative times to collaborate with classmates.",
+          "change": [1, 0, -1]
+        }
+      ]
     }
+  
   ]
 }
 
