@@ -11,19 +11,21 @@ const groupB = document.getElementById("group_B");
 const groupC = document.getElementById("group_C");
 let groupStats = [50, 50, 50];
 // Text Box
-const textBox = document.getElementById("textBox"); // grabs element
+const textBox = document.getElementById("textBox");
+const choiceExpanded = document.getElementById("choice_expanded");
 
 // Helper functions
 function fillTextBox(text) {
   textBox.innerText = text.prompt_text;
-  button1.innerText = text.choices[0].choice_text;
-  button2.innerText = text.choices[1].choice_text;
+  button1.innerText = text.choices[0].preview;
+  button2.innerText = text.choices[1].preview;
 }
 
 function fillStatBox() {
   groupA.innerText = `Social: ${groupStats[0]}`;
   groupB.innerText = `School: ${groupStats[1]}`;
   groupC.innerText = `Health: ${groupStats[2]}`;
+  choiceExpanded.innerText = "";
 }
 
 function statAdder(stats) {
@@ -59,11 +61,12 @@ function gameOver() {
 fetch(scenariosUrl)
   .then((res) => res.json())
   .then((scenarios) => {
-    let currScenario = scenarios[randomNumberGenerator(scenarios.length)];
+    let currScenario = scenarios[0];
     fillTextBox(currScenario);
     fillStatBox();
 
     // Event listeners
+
     button1.addEventListener("click", () => {
       fetch(scenariosUrl)
         .then((res) => res.json())
@@ -85,5 +88,23 @@ fetch(scenariosUrl)
           fillTextBox(currScenario);
           groupStats.forEach(statMinChecker);
         });
+    });
+
+    //  Mouse Hover functionality
+    button1.addEventListener("mouseover", () => {
+      choiceExpanded.innerText =
+        scenarios[currScenario.id - 1].choices[0].choice_text; // Hover on, text appears
+    });
+    button1.addEventListener("mouseleave", () => {
+      // Hover off, text disappears
+      choiceExpanded.innerText = "";
+    });
+
+    button2.addEventListener("mouseover", () => {
+      choiceExpanded.innerText =
+        scenarios[currScenario.id - 1].choices[1].choice_text;
+    });
+    button2.addEventListener("mouseleave", () => {
+      choiceExpanded.innerText = "";
     });
   });
