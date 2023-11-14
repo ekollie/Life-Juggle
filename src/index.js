@@ -9,7 +9,7 @@ const button2 = document.getElementById("choice_2");
 const groupA = document.getElementById("group_A");
 const groupB = document.getElementById("group_B");
 const groupC = document.getElementById("group_C");
-let groupStats = [25, 25, 25];
+let groupStats = [50, 50, 50];
 // Text Box
 const textBox = document.getElementById("textBox"); // grabs element
 
@@ -37,6 +37,17 @@ function randomNumberGenerator(range) {
   return Math.floor(Math.random() * range);
 }
 
+function balanceChecker(stat) {
+  if (stat <= 0) {
+    gameOver();
+  }
+}
+function gameOver() {
+  textBox.innerText = "Game over";
+  button1.remove();
+  button2.remove();
+}
+
 // Gameplay
 fetch(scenariosUrl)
   .then((res) => res.json())
@@ -54,6 +65,7 @@ fetch(scenariosUrl)
           let rng = randomNumberGenerator(scenarios.length);
           currScenario = scenarios[rng];
           fillTextBox(currScenario);
+          groupStats.forEach(balanceChecker);
         });
     });
     button2.addEventListener("click", () => {
@@ -64,6 +76,7 @@ fetch(scenariosUrl)
           let rng = randomNumberGenerator(scenarios.length);
           currScenario = scenarios[rng];
           fillTextBox(currScenario);
+          groupStats.forEach(balanceChecker);
         });
     });
   });
