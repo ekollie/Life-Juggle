@@ -1,0 +1,22 @@
+
+.groups{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px;
+    background-color: blue;
+    color: red;
+}
+
+#choice_1{
+    padding: 10px;
+        color: yellow
+}
+
+#choice_2 {
+    padding: 10px;
+    color: green
+}
