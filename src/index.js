@@ -30,6 +30,8 @@ function statAdder(stats) {
   groupStats[0] += stats[0];
   groupStats[1] += stats[1];
   groupStats[2] += stats[2];
+  console.log("line 33 ran");
+  groupStats.forEach((stat) => statMaxLimiter(stat));
   fillStatBox();
 }
 
@@ -37,7 +39,12 @@ function randomNumberGenerator(range) {
   return Math.floor(Math.random() * range);
 }
 
-function balanceChecker(stat) {
+function statMaxLimiter(stat) {
+  if (stat > 100) {
+    groupStats[groupStats.indexOf(stat)] = 100;
+  }
+}
+function statMinChecker(stat) {
   if (stat <= 0) {
     gameOver();
   }
@@ -65,7 +72,7 @@ fetch(scenariosUrl)
           let rng = randomNumberGenerator(scenarios.length);
           currScenario = scenarios[rng];
           fillTextBox(currScenario);
-          groupStats.forEach(balanceChecker);
+          groupStats.forEach(statMinChecker);
         });
     });
     button2.addEventListener("click", () => {
@@ -76,7 +83,7 @@ fetch(scenariosUrl)
           let rng = randomNumberGenerator(scenarios.length);
           currScenario = scenarios[rng];
           fillTextBox(currScenario);
-          groupStats.forEach(balanceChecker);
+          groupStats.forEach(statMinChecker);
         });
     });
   });
