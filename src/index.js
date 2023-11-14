@@ -27,8 +27,9 @@ function fillStatBox() {
   groupC.innerText = `Health: ${groupStats[2]}`;
   choiceExpanded.innerText = "";
 }
-
+const multiplier = 1.3;
 function statAdder(stats) {
+  stats = stats.map((stat) => Math.round(stat * multiplier));
   groupStats[0] += stats[0];
   groupStats[1] += stats[1];
   groupStats[2] += stats[2];
