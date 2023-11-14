@@ -1,7 +1,8 @@
 /*Positioning of Group A,B,C */
 .group-container{
     display: flex;
-    justify-content: center
+    justify-content: space-evenly;
+    align-items: baseline;
 }
 
 /* Content of Group A,B,C*/
@@ -18,24 +19,26 @@
 /*Positioning of Prompt Box */
 .textBox-container{
     display: flex;
-    justify-content: center
+    justify-content: space-evenly;
+    align-items: baseline;
 }
 
 /*Content of Prompt Box */
-.textBox{
+#textBox{
 height: 100px;
-    width: 100px;
-    padding: 20px;
-    margin: 50px;
+    width: 400px;
+    padding: 40px;
+    margin: 60px;
     border: 10px;
-    background-color: blue;
+    background-color: yellow;
     color: red;
 }
 
 /*Positioning of Choice Buttons */
 .choices-container{
     display: flex;
-    justify-content: center
+    justify-content: space-evenly;
+    align-items: baseline;
 }
 
 
