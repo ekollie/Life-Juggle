@@ -156,7 +156,6 @@ function formSubmit() {
     .then((res) => res.json())
     .then((data) => {
       console.log("Successful post", data);
-      alert("form submitted successfully!");
       showScoreBoard();
     })
     .catch((error) => {
