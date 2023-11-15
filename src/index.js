@@ -1,6 +1,7 @@
 // Url + Endpoints
 const url = "http://localhost:3000";
 const scenariosUrl = url + "/Scenarios";
+const scoresUrl = url + "/Scores";
 
 const button1 = document.getElementById("choice_1");
 const button2 = document.getElementById("choice_2");
@@ -15,7 +16,10 @@ const textBox = document.getElementById("textBox");
 const choiceExpanded = document.getElementById("choice_expanded");
 choiceExpanded.style.color = "white";
 choiceExpanded.style.fontSize = "large";
-const form = document.createElement("form");
+
+// This will change the speed of the game by making each decision more impactful to overall score
+const multiplier = 25;
+let score = 0;
 
 // Helper functions
 function fillTextBox(text) {
@@ -30,15 +34,14 @@ function fillStatBox() {
   groupC.innerText = `Health: ${groupStats[2]}`;
   choiceExpanded.innerText = "";
 }
-const multiplier = 25;
 function statAdder(stats) {
   stats = stats.map((stat) => Math.round(stat * multiplier));
   groupStats[0] += stats[0];
   groupStats[1] += stats[1];
   groupStats[2] += stats[2];
-  console.log("line 33 ran");
   groupStats.forEach((stat) => statMaxLimiter(stat));
   fillStatBox();
+  score += 1;
 }
 
 function randomNumberGenerator(range) {
@@ -59,7 +62,7 @@ function gameOver() {
   textBox.innerText = "Game over";
   button1.remove();
   button2.remove();
-  choiceExpanded.append(form);
+  createForm();
 }
 
 // Gameplay
@@ -113,3 +116,75 @@ fetch(scenariosUrl)
       choiceExpanded.textContent = "";
     });
   });
+
+// Score Board
+function createForm() {
+  const form = document.createElement("form");
+  form.setAttribute("id", "myForm");
+
+  const nameLabel = document.createElement("label");
+  nameLabel.textContent = "Enter your name: ";
+  const nameInput = document.createElement("input");
+  nameInput.setAttribute("type", "text");
+  nameInput.setAttribute("name", "name");
+
+  form.appendChild(nameLabel);
+  form.appendChild(nameInput);
+  choiceExpanded.appendChild(form);
+
+  nameInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      formSubmit();
+      formRemove();
+    }
+  });
+}
+function formSubmit() {
+  const nameInput = document.forms["myForm"]["name"].value;
+  fetch(scoresUrl, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json, text/plain, */*",
+    },
+    body: JSON.stringify({
+      name: nameInput,
+      score: score,
+    }),
+  })
+    .then((res) => res.json())
+    .then((data) => {
+      console.log("Successful post", data);
+      alert("form submitted successfully!");
+      alert(nameInput, score);
+      choiceExpanded.innerText = `Score: ${score}`;
+    })
+    .catch((error) => {
+      console.error("Error submitting form:", error);
+      alert("Error submitting form. Please try again.");
+    });
+}
+function formRemove() {
+  document.getElementById("myForm").remove();
+}
+
+function showScoreBoard() {
+  fetch(scoresUrl)
+    .then((res = res.json()))
+    .then((scores) => {
+      const highScores = [];
+      const Top = Object.entries(scores).reduce(
+        ({ topPlayer, topScore = -Infinity }, [key, value]) => {
+          if (value > topScore) {
+            topScore = value;
+            topPlayer = key;
+          }
+          return { topPlayer, topScore };
+        }
+      );
+      const tag = document.createElement("p");
+      tag.innerText = Top[0];
+      choiceExpanded.appendChild(tag);
+    });
+}
