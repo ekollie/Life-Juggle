@@ -77,7 +77,8 @@ body{
   border-radius: 10px;
   background-color: lightgray;
   color: maroon;
-  font-family: 'KG Already Home', sans-serif;
+  font-family: 'Doodle_Head';
+  font-size: 30px;
 }
 
 /*Positioning of Choice Buttons */
@@ -92,13 +93,14 @@ body{
   padding: 10px;
   color: white;
   background-color: black;
-    font-family: 'KG Already Home', sans-serif;
+  font-family: 'KG Already Home', sans-serif;
 }
 /* Content of Btn 2*/
 #choice_2 {
   padding: 10px;
   color: white;
   background-color: black;
+  font-family: 'KG Already Home', sans-serif;
 }
 
 #choice_expanded {
@@ -107,7 +109,8 @@ body{
   justify-content: space-evenly;
   text-align: center;
   height: 10vh;
-color: maroon;
+  color: maroon;
+  font-family: 'Zuka Doodle', sans-serif;
 }
 
 #choice_expanded p {
