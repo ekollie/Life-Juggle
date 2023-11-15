@@ -157,8 +157,7 @@ function formSubmit() {
     .then((data) => {
       console.log("Successful post", data);
       alert("form submitted successfully!");
-      alert(nameInput, score);
-      choiceExpanded.innerText = `Score: ${score}`;
+      showScoreBoard();
     })
     .catch((error) => {
       console.error("Error submitting form:", error);
@@ -171,20 +170,25 @@ function formRemove() {
 
 function showScoreBoard() {
   fetch(scoresUrl)
-    .then((res = res.json()))
+    .then((res) => res.json())
     .then((scores) => {
-      const highScores = [];
-      const Top = Object.entries(scores).reduce(
-        ({ topPlayer, topScore = -Infinity }, [key, value]) => {
-          if (value > topScore) {
-            topScore = value;
-            topPlayer = key;
-          }
-          return { topPlayer, topScore };
-        }
-      );
-      const tag = document.createElement("p");
-      tag.innerText = Top[0];
-      choiceExpanded.appendChild(tag);
+      const title = document.createElement("span");
+      title.innerText = "Leaderboard";
+      choiceExpanded.appendChild(title);
+
+      const sortedScores = scores.sort((a, b) => b.score - a.score);
+      const topThree = sortedScores.slice(0, 3);
+      const list = document.createElement("ul");
+
+      topThree.forEach((score) => {
+        const listItem = document.createElement("li");
+        listItem.textContent = `${score.name}: ${score.score}`;
+        list.appendChild(listItem);
+      });
+      choiceExpanded.appendChild(list);
+
+      const playerScore = document.createElement("span");
+      playerScore.innerText = `Your score: ${score}`;
+      choiceExpanded.appendChild(playerScore);
     });
 }
