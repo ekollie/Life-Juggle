@@ -15,6 +15,7 @@ const textBox = document.getElementById("textBox");
 const choiceExpanded = document.getElementById("choice_expanded");
 choiceExpanded.style.color = "white";
 choiceExpanded.style.fontSize = "large";
+const form = document.createElement("form");
 
 // Helper functions
 function fillTextBox(text) {
@@ -29,7 +30,7 @@ function fillStatBox() {
   groupC.innerText = `Health: ${groupStats[2]}`;
   choiceExpanded.innerText = "";
 }
-const multiplier = 1.3;
+const multiplier = 25;
 function statAdder(stats) {
   stats = stats.map((stat) => Math.round(stat * multiplier));
   groupStats[0] += stats[0];
@@ -58,6 +59,7 @@ function gameOver() {
   textBox.innerText = "Game over";
   button1.remove();
   button2.remove();
+  choiceExpanded.append(form);
 }
 
 // Gameplay
