@@ -3,7 +3,7 @@ body{
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
-    background-size: 1200px;
+    background-size: cover;
 }
 
 /*Positioning of Group A,B,C */
