@@ -2,17 +2,17 @@
   "Scenarios": [
     {
       "id": 1,
-      "prompt_text": "Your friend invites you to a late-night movie marathon on a weekday. Do you join for the social fun, or prioritize a good night's sleep for your health and school commitments the next day?",
+      "prompt_text": "Click any button to start",
       "choices": [
         {
-          "preview": "Join the Movie Marathon",
-          "choice_text": "Participate in the movie marathon for social enjoyment, but be mindful of setting a limit to ensure adequate sleep for health and school.",
-          "change": [3, -2, -1]
+          "preview": "Start",
+          "choice_text": "Manage the balance between the different dimensions of your life",
+          "change": [0, 0, 0]
         },
         {
-          "preview": "Prioritize Sleep",
-          "choice_text": "Opt to prioritize a good night's sleep to maintain overall health and be well-rested for school the next day, suggesting alternative plans for another time.",
-          "change": [1, 2, 3]
+          "preview": "Start",
+          "choice_text": "Any dimension reaching zero is a game over",
+          "change": [0, 0, 0]
         }
       ]
     },
