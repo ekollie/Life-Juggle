@@ -18,7 +18,7 @@ choiceExpanded.style.color = "white";
 choiceExpanded.style.fontSize = "large";
 
 // This will change the speed of the game by making each decision more impactful to overall score
-const multiplier = 25;
+let multiplier = 1;
 let score = 0;
 
 // Helper functions
@@ -117,7 +117,7 @@ fetch(scenariosUrl)
     });
   });
 
-// Score Board
+// LeaderBoard
 function createForm() {
   const form = document.createElement("form");
   form.setAttribute("id", "myForm");
@@ -193,3 +193,10 @@ function showScoreBoard() {
       choiceExpanded.appendChild(playerScore);
     });
 }
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "i") {
+    multiplier = prompt("Decision multiplier");
+  }
+  console.log(multiplier);
+});
