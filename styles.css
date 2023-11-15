@@ -7,7 +7,12 @@
   justify-content: space-evenly;
   align-items: baseline;
   font-family: 'Courier New', Courier, monospace;
-}
+  position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+
 
 
 body {
