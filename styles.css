@@ -21,7 +21,7 @@ body{
   margin: 50px;
   border: 10px solid black; 
   background-color: white;
-  color: red;
+  color: crimson;
 }
 
 #group_A{
@@ -75,8 +75,9 @@ body{
   margin: 60px;
   border: 10px solid black;
   border-radius: 10px;
-  background-color: yellow;
-  color: red;
+  background-color: lightgray;
+  color: maroon;
+  font-family: 'HAPPY DOODLE';
 }
 
 /*Positioning of Choice Buttons */
@@ -89,20 +90,23 @@ body{
 /* Content of Btn 1*/
 #choice_1 {
   padding: 10px;
-  color: black;
+  color: white;
+  background-color: black;
 }
 /* Content of Btn 2*/
 #choice_2 {
   padding: 10px;
-  color: green;
+  color: white;
+  background-color: black;
 }
 
 #choice_expanded {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   text-align: center;
   height: 10vh;
+color: maroon;
 }
 
 #choice_expanded p {
