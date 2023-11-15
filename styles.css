@@ -2,6 +2,14 @@
   font-family: "Doodle_Head";
 }
 
+.title{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
 body {
   background-image: url(stickman_crossroads_new.jpg);
   background-repeat: no-repeat;
@@ -120,13 +128,13 @@ body {
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
-  height: 10vh;
-  color: maroon;
+  height: 2vh;
+  
   font-family: "Zuka Doodle", sans-serif;
   font-weight: bold;
   font-size: x-large;
   /* -webkit-text-fill-color: white; */
-  background-color: white;
+  text-shadow: 0px 0px 7px maroon, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
   width: 100%;
 }
 
