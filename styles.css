@@ -77,7 +77,7 @@ body{
   border-radius: 10px;
   background-color: lightgray;
   color: maroon;
-  font-family: 'HAPPY DOODLE';
+  font-family: 'KG Already Home', sans-serif;
 }
 
 /*Positioning of Choice Buttons */
@@ -92,6 +92,7 @@ body{
   padding: 10px;
   color: white;
   background-color: black;
+    font-family: 'KG Already Home', sans-serif;
 }
 /* Content of Btn 2*/
 #choice_2 {
