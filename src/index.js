@@ -13,6 +13,8 @@ let groupStats = [50, 50, 50];
 // Text Box
 const textBox = document.getElementById("textBox");
 const choiceExpanded = document.getElementById("choice_expanded");
+choiceExpanded.style.color = "white";
+choiceExpanded.style.fontSize = "large";
 
 // Helper functions
 function fillTextBox(text) {
@@ -93,19 +95,19 @@ fetch(scenariosUrl)
 
     //  Mouse Hover functionality
     button1.addEventListener("mouseover", () => {
-      choiceExpanded.innerText =
+      choiceExpanded.textContent =
         scenarios[currScenario.id - 1].choices[0].choice_text; // Hover on, text appears
     });
     button1.addEventListener("mouseleave", () => {
       // Hover off, text disappears
-      choiceExpanded.innerText = "";
+      choiceExpanded.textContent = "";
     });
 
     button2.addEventListener("mouseover", () => {
-      choiceExpanded.innerText =
+      choiceExpanded.textContent =
         scenarios[currScenario.id - 1].choices[1].choice_text;
     });
     button2.addEventListener("mouseleave", () => {
-      choiceExpanded.innerText = "";
+      choiceExpanded.textContent = "";
     });
   });
