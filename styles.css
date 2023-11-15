@@ -27,8 +27,8 @@ body{
 #group_A{
     background-image: url(stickman_social.jpeg);
     background-repeat: no-repeat;
-    background-size: 210px;
-    background-position: center;
+    background-size: 138px;
+    background-position: center bottom;
     height: 100px;
         width: 100px;
         padding: 20px;
@@ -39,8 +39,8 @@ body{
 #group_B {
     background-image: url(stickman_school_new.png);
     background-repeat: no-repeat;
-    background-size: 131px;
-    background-position: center;
+    background-size: 132px;
+    background-position: center bottom;
     height: 100px;
     width: 100px;
     padding: 20px;
@@ -51,8 +51,8 @@ body{
 #group_C {
     background-image: url(stickman_health.png);
     background-repeat: no-repeat;
-    background-size: 107px;
-    background-position: center;
+    background-size: 87px;
+    background-position: center bottom;
     height: 100px;
     width: 100px;
     padding: 20px;
@@ -102,7 +102,7 @@ body{
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 25vh;
+  height: 10vh;
 }
 
 #choice_expanded p {
