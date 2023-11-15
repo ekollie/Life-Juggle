@@ -18,7 +18,7 @@ choiceExpanded.style.color = "white";
 choiceExpanded.style.fontSize = "large";
 
 // This will change the speed of the game by making each decision more impactful to overall score
-const multiplier = 25;
+const multiplier = 10;
 let score = 0;
 
 // Helper functions
