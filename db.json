@@ -480,6 +480,39 @@
         }
       ]
     }
+    {
+      "id": 31,
+      "prompt_text": "Your favorite artist is doing a one night only surprise concert and your best friend, who you haven't seen in months, surprises you with VIP tickets, but your coding project and presentation is due the next day.", 
+      "choices":[
+        {
+          "preview": "Risk it and have fun ",
+          "choice_text": "Go to the concert with your best friend and enjoy your favorite artist",
+          "change": [2, -1, 0]
+        },
+        {
+          "preview": "Prioritize school",
+          "choice_text": "Stay home and work on your project and practice your presentation",
+          "change":[-1, 5, 0]
+        }
+      ]
+    }
+    {
+      "id": 32,
+      "prompt_text": "Your college friends are all in town and want to go out partying but you've feeling overwhelmed by the demands of your social life and commitments. Do you miss out on a fun night or focus on self care",
+      "choices":[
+        {
+          "preview": "Set boundaries",
+          "choice_text": "Tell your friends that you can't make it out and take some time to yourself to relax and reset.",
+          "change": [-2, 0, 4]
+        }
+        {
+          "preview": "Live it up with your friends",
+          "choice_text": "Drink some coffee or redbull and have a fun time with your friends",
+          "change": [2, 0, -3]
+        }
+      ]
+    }
   ],
+  
   "Scores": []
 }
