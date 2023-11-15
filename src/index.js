@@ -194,7 +194,7 @@ function showScoreBoard() {
 }
 
 document.addEventListener("keydown", (e) => {
-  if (e.key === "i") {
+  if (e.key === "Backslash") {
     multiplier = prompt("Decision multiplier");
   }
   console.log(multiplier);
