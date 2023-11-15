@@ -729,83 +729,18 @@
     },
     {
       "name": "Test",
-      "score": 2,
+      "score": 5,
       "id": 2
     },
     {
-      "name": "Testing score",
-      "score": 5,
+      "name": "Eli",
+      "score": 2,
       "id": 3
     },
     {
-      "name": "Test",
-      "score": 4,
+      "name": "Eli",
+      "score": 3,
       "id": 4
-    },
-    {
-      "name": "Test",
-      "score": 3,
-      "id": 5
-    },
-    {
-      "name": "Elijah",
-      "score": 3,
-      "id": 6
-    },
-    {
-      "name": "Testing",
-      "score": 3,
-      "id": 7
-    },
-    {
-      "name": "Test",
-      "score": 2,
-      "id": 8
-    },
-    {
-      "name": "My best score",
-      "score": 3,
-      "id": 9
-    },
-    {
-      "name": "Enter your name",
-      "score": 3,
-      "id": 10
-    },
-    {
-      "name": "Test",
-      "score": 3,
-      "id": 11
-    },
-    {
-      "name": "Name",
-      "score": 2,
-      "id": 12
-    },
-    {
-      "name": "Elijah",
-      "score": 2,
-      "id": 13
-    },
-    {
-      "name": "New game",
-      "score": 13,
-      "id": 14
-    },
-    {
-      "name": "e",
-      "score": 3,
-      "id": 15
-    },
-    {
-      "name": "dwda",
-      "score": 2,
-      "id": 16
-    },
-    {
-      "name": "dwade",
-      "score": 2,
-      "id": 17
     }
   ]
 }

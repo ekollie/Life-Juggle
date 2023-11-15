@@ -187,7 +187,8 @@ function showScoreBoard() {
       });
       choiceExpanded.appendChild(list);
 
-      const playerScore = document.createElement("span");
+      const playerScore = document.createElement("p");
+      playerScore.style.flexDirection = "column";
       playerScore.innerText = `Your score: ${score}`;
       choiceExpanded.appendChild(playerScore);
     });
