@@ -24,6 +24,14 @@ body {
 }
 
 /*Positioning of Group A,B,C */
+* {
+  font-family: monospace;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
 .group-container {
   display: flex;
   justify-content: space-evenly;
@@ -146,4 +154,23 @@ body {
 #choice_expanded p {
   /* max-width: 600px;  */
   margin: 0 auto;
+  color: white;
+}
+
+.button {
+  display: block;
+  margin: 15px auto;
+  width: 50%;
+  border: 2px solid rgb(44, 44, 44);
+  padding: 5px 50px;
+  border-radius: 8px;
+  text-decoration: none;
+  background: #3c3c3c;
+  transition: 0.2s;
+  font-size: 14px;
+  color: white;
+}
+.button:hover {
+  transform: translateY(-7px);
+  transform: scale(1.1);
 }

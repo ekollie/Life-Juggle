@@ -1,0 +1,485 @@
+{
+  "Scenarios": [
+    {
+      "id": 1,
+      "prompt_text": "Click any button to start",
+      "choices": [
+        {
+          "preview": "Start",
+          "choice_text": "Manage the balance between the different dimensions of your life",
+          "change": [0, 0, 0]
+        },
+        {
+          "preview": "Start",
+          "choice_text": "Click i to change decision weight (development tool)",
+          "change": [0, 0, 0]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt_text": "Your classmate invites you to a study group the night before a major exam. Do you join for collaborative learning and social support, or study independently to maintain focus?",
+      "choices": [
+        {
+          "preview": "Join Study Group",
+          "choice_text": "Participate in the study group for collaborative learning and social support, but establish boundaries to ensure productive study time.",
+          "change": [2, 2, -1]
+        },
+        {
+          "preview": "Study Independently",
+          "choice_text": "Choose to study independently to maintain focus and control over your study environment, ensuring efficient preparation for the exam.",
+          "change": [-1, 3, 1]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "prompt_text": "Your parents want you to attend a family gathering during a crucial study weekend. Do you join for family bonding, or communicate the importance of your academic commitments and stay home to focus on studies?",
+      "choices": [
+        {
+          "preview": "Attend Family Gathering",
+          "choice_text": "Participate in the family gathering for bonding but communicate your study commitments, perhaps negotiating specific study times during the event.",
+          "change": [2, -3, -2]
+        },
+        {
+          "preview": "Prioritize Studies",
+          "choice_text": "Choose to stay home and focus on studies, emphasizing the importance of academic commitments while expressing willingness to engage in family activities at a more suitable time.",
+          "change": [-2, 3, 2]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "prompt_text": "Your friends plan a spontaneous road trip over the weekend. Do you join for the adventure and social experience, or decline to focus on your upcoming exams and prioritize your academic responsibilities?",
+      "choices": [
+        {
+          "preview": "Join the Road Trip",
+          "choice_text": "Embark on the road trip for a spontaneous adventure, but communicate the need for designated study breaks to balance socializing with academic commitments.",
+          "change": [3, -2, -2]
+        },
+        {
+          "preview": "Prioritize Exams",
+          "choice_text": "Opt to decline the road trip to concentrate on exam preparation, emphasizing the importance of academic responsibilities and proposing alternative plans for after exams.",
+          "change": [-1, 3, 2]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "prompt_text": "You're feeling overwhelmed with schoolwork and extracurricular activities. Do you ask for help or support from friends or family, or try to manage the stress on your own to avoid burdening others?",
+      "choices": [
+        {
+          "preview": "Seek Support",
+          "choice_text": "Reach out to friends or family for emotional support and assistance in managing workload, fostering a collaborative approach to cope with stress.",
+          "change": [3, -2, -1]
+        },
+        {
+          "preview": "Manage Stress Independently",
+          "choice_text": "Choose to manage stress independently to avoid burdening others, but consider establishing healthier coping mechanisms and self-care routines.",
+          "change": [-2, 2, 1]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "prompt_text": "Your school organizes a charity event, and they're looking for volunteers. Do you sign up to contribute to the community and gain social experiences, or decline to focus on personal activities and school commitments?",
+      "choices": [
+        {
+          "preview": "Volunteer for Charity Event",
+          "choice_text": "Sign up to volunteer for the charity event, contributing to the community and gaining valuable social experiences, while balancing commitments.",
+          "change": [2, -1, -1]
+        },
+        {
+          "preview": "Focus on Personal Activities",
+          "choice_text": "Decline the volunteer opportunity to focus on personal activities and school commitments, ensuring a balance between community engagement and personal responsibilities.",
+          "change": [-1, 1, 1]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "prompt_text": "Your friends invite you to a late-night gaming session. Do you join for the social fun, or prioritize a good night's sleep for your health and school commitments the next day?",
+      "choices": [
+        {
+          "preview": "Join the Gaming Session",
+          "choice_text": "Participate for social fun but set a time limit to ensure enough sleep for health and school.",
+          "change": [2, -2, -1]
+        },
+        {
+          "preview": "Prioritize Sleep",
+          "choice_text": "Opt for a good night's sleep, ensuring you're well-rested for school, and suggest an alternative time for gaming.",
+          "change": [1, 2, 2]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "prompt_text": "A classmate invites you to a party the night before a major project deadline. Do you attend for socializing, or stay home to focus on completing the project?",
+      "choices": [
+        {
+          "preview": "Attend the Party",
+          "choice_text": "Go to the party for socializing but communicate your project deadline and set a time to leave early to work on it.",
+          "change": [3, -2, -2]
+        },
+        {
+          "preview": "Focus on the Project",
+          "choice_text": "Choose to stay home and prioritize completing the project, emphasizing its importance over social events.",
+          "change": [-1, 3, 2]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "prompt_text": "Your school offers a yoga class during lunch break. Do you join for the health benefits and social interaction, or use the time to study for an upcoming exam?",
+      "choices": [
+        {
+          "preview": "Join Yoga Class",
+          "choice_text": "Participate in the yoga class for health benefits and social interaction, ensuring a balanced approach to well-being.",
+          "change": [2, -1, 1]
+        },
+        {
+          "preview": "Study During Lunch",
+          "choice_text": "Opt to study during lunch to prepare for the exam, prioritizing academic commitments over physical activity and socializing.",
+          "change": [-1, 2, -1]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "prompt_text": "You're invited to a networking event that aligns with your career goals, but it falls on the same day as a close friend's birthday party. Do you prioritize your professional development or celebrate with your friend?",
+      "choices": [
+        {
+          "preview": "Attend Networking Event",
+          "choice_text": "Attend the networking event to enhance professional opportunities, but communicate with your friend and plan a belated celebration.",
+          "change": [3, -1, 0]
+        },
+        {
+          "preview": "Celebrate Friend's Birthday",
+          "choice_text": "Celebrate your friend's birthday, prioritizing personal connections, and express your commitment to professional growth on another occasion.",
+          "change": [2, 0, -1]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "prompt_text": "You have the opportunity to travel abroad for a cultural exchange program during the semester, but it conflicts with an important internship opportunity. Do you choose international experience or prioritize gaining industry-specific skills?",
+      "choices": [
+        {
+          "preview": "Join Cultural Exchange Program",
+          "choice_text": "Opt for the cultural exchange program for diverse experiences, but explore possibilities to defer the internship or find alternative remote work.",
+          "change": [4, -2, 1]
+        },
+        {
+          "preview": "Prioritize Internship",
+          "choice_text": "Prioritize the internship to gain industry-specific skills, expressing gratitude for the opportunity and exploring cultural experiences at a later time.",
+          "change": [-1, 3, -1]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "prompt_text": "Your friend asks you to cover for them at work because they want to attend a family event. Do you agree to help out, or prioritize your own commitments and decline?",
+      "choices": [
+        {
+          "preview": "Help Friend at Work",
+          "choice_text": "Agree to cover for your friend, prioritizing friendship and offering support, but communicate any potential limitations or conditions.",
+          "change": [2, -1, -1]
+        },
+        {
+          "preview": "Prioritize Own Commitments",
+          "choice_text": "Politely decline to cover for your friend, emphasizing your own commitments, and suggest alternative solutions if possible.",
+          "change": [-1, 1, 0]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "prompt_text": "You find out about a scholarship opportunity that requires a significant time investment in community service. Do you pursue the scholarship for potential financial benefits, or focus on other activities aligned with your career goals?",
+      "choices": [
+        {
+          "preview": "Pursue Scholarship Through Community Service",
+          "choice_text": "Invest time in community service for the scholarship, balancing financial benefits with the potential for personal growth and contribution.",
+          "change": [3, 0, 1]
+        },
+        {
+          "preview": "Focus on Career-Aligned Activities",
+          "choice_text": "Prioritize activities aligned with your career goals, considering alternative financial options and focusing on professional development.",
+          "change": [1, 0, 0]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "prompt_text": "You have the chance to collaborate on a creative project with classmates over the weekend, but it conflicts with a family gathering. Do you prioritize the collaborative opportunity or family time?",
+      "choices": [
+        {
+          "preview": "Collaborate on Creative Project",
+          "choice_text": "Join your classmates for the creative project, emphasizing the importance of the opportunity and exploring ways to make up for missed family time.",
+          "change": [2, -1, 0]
+        },
+        {
+          "preview": "Prioritize Family Gathering",
+          "choice_text": "Prioritize the family gathering, communicating the importance of family and seeking alternative times to collaborate with classmates.",
+          "change": [1, 0, -1]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "prompt_text": "You're offered a leadership role in a student club that aligns with your interests but requires a significant time commitment. Do you accept the role for personal growth and impact, or prioritize a lighter workload?",
+      "choices": [
+        {
+          "preview": "Accept Leadership Role",
+          "choice_text": "Embrace the leadership role for personal growth and impact, but establish clear boundaries and time management strategies.",
+          "change": [3, -2, -1]
+        },
+        {
+          "preview": "Prioritize Lighter Workload",
+          "choice_text": "Prioritize a lighter workload to maintain balance, expressing gratitude for the opportunity and offering support in alternative capacities.",
+          "change": [1, 1, 0]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "prompt_text": "Your professor offers an extra credit project that aligns with your passion but requires extra hours. Do you take on the project for academic benefits, or focus on your current assignments?",
+      "choices": [
+        {
+          "preview": "Engage in Extra Credit Project",
+          "choice_text": "Take on the extra credit project for academic benefits, managing time effectively and ensuring it complements your current assignments.",
+          "change": [2, -1, 1]
+        },
+        {
+          "preview": "Focus on Current Assignments",
+          "choice_text": "Prioritize your current assignments, appreciating the opportunity but recognizing the importance of managing workload.",
+          "change": [1, 2, -1]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "prompt_text": "You're invited to join a volunteer trip abroad during your semester break, but it conflicts with a planned family vacation. Do you prioritize global service or family bonding?",
+      "choices": [
+        {
+          "preview": "Join Volunteer Trip Abroad",
+          "choice_text": "Opt for the volunteer trip abroad for global service, communicating with your family to find alternative dates for the vacation.",
+          "change": [3, -1, 1]
+        },
+        {
+          "preview": "Prioritize Family Vacation",
+          "choice_text": "Prioritize the planned family vacation, expressing interest in global service and exploring other volunteer opportunities that align with your schedule.",
+          "change": [2, 0, -1]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "prompt_text": "Your friend invites you to participate in a weekend hackathon, but you have a personal project you've been working on. Do you join the hackathon for the collaborative experience, or prioritize your personal project?",
+      "choices": [
+        {
+          "preview": "Participate in Hackathon",
+          "choice_text": "Join the hackathon for the collaborative experience, ensuring it complements your personal project goals and scheduling dedicated time for both.",
+          "change": [2, -1, 0]
+        },
+        {
+          "preview": "Prioritize Personal Project",
+          "choice_text": "Prioritize your personal project, expressing appreciation for the invitation and suggesting alternative times for collaborative activities.",
+          "change": [1, 1, 0]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "prompt_text": "Your manager offers you the opportunity to lead a high-profile project at work, but it requires overtime. Do you accept for career advancement, or prioritize work-life balance?",
+      "choices": [
+        {
+          "preview": "Lead High-Profile Project",
+          "choice_text": "Accept the opportunity to lead the high-profile project for career advancement, negotiating clear expectations and potential compensations.",
+          "change": [4, -2, -2]
+        },
+        {
+          "preview": "Prioritize Work-Life Balance",
+          "choice_text": "Prioritize work-life balance, expressing gratitude for the opportunity while ensuring boundaries and discussing alternatives to mitigate overtime.",
+          "change": [2, 1, 0]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "prompt_text": "You have the opportunity to collaborate with a renowned expert in your field on a research project, but it requires extensive travel. Do you accept for the valuable experience, or prioritize stability and avoid frequent travel?",
+      "choices": [
+        {
+          "preview": "Collaborate on Research Project",
+          "choice_text": "Accept the opportunity to collaborate for the valuable experience, balancing travel commitments with a well-defined schedule and clear expectations.",
+          "change": [3, -2, -1]
+        },
+        {
+          "preview": "Prioritize Stability",
+          "choice_text": "Prioritize stability and avoid frequent travel, expressing gratitude for the opportunity while seeking alternative ways to collaborate or contribute remotely.",
+          "change": [1, 1, 0]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "prompt_text": "You're invited to speak at a major conference, but it falls on the same day as your sibling's important life event. Do you accept the speaking opportunity for professional exposure, or prioritize your family commitment?",
+      "choices": [
+        {
+          "preview": "Speak at Conference",
+          "choice_text": "Accept the speaking opportunity for professional exposure, but communicate with your sibling, explore alternative ways to participate, and plan a special celebration.",
+          "change": [3, -1, 0]
+        },
+        {
+          "preview": "Prioritize Family Commitment",
+          "choice_text": "Prioritize your sibling's important life event, expressing appreciation for the invitation and exploring opportunities for future speaking engagements.",
+          "change": [2, 0, -1]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "prompt_text": "You're offered a chance to take on a mentorship role for junior colleagues, but it requires dedicating extra time to guide and support them. Do you accept for the opportunity to contribute, or prioritize your existing workload?",
+      "choices": [
+        {
+          "preview": "Accept Mentorship Role",
+          "choice_text": "Accept the mentorship role for the opportunity to contribute, but establish clear boundaries and communicate expectations to balance the additional workload.",
+          "change": [2, -1, 1]
+        },
+        {
+          "preview": "Prioritize Existing Workload",
+          "choice_text": "Prioritize your existing workload, expressing appreciation for the mentorship offer while suggesting alternative ways to support junior colleagues.",
+          "change": [1, 1, -1]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "prompt_text": "You're asked to lead a community service project in your neighborhood, but it coincides with a major work deadline. Do you take on the leadership role for community impact, or prioritize meeting your work commitments?",
+      "choices": [
+        {
+          "preview": "Lead Community Service Project",
+          "choice_text": "Take on the leadership role for community impact, but communicate with your work team, delegate tasks, and manage time effectively to meet the deadline.",
+          "change": [2, -1, 1]
+        },
+        {
+          "preview": "Prioritize Work Commitments",
+          "choice_text": "Prioritize meeting work commitments, expressing interest in community service and exploring alternative ways to contribute or support the project.",
+          "change": [1, 2, -1]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "prompt_text": "You're given the chance to teach a workshop on a subject you're passionate about, but it requires preparation time and may impact your personal projects. Do you embrace the teaching opportunity, or prioritize your personal creative endeavors?",
+      "choices": [
+        {
+          "preview": "Teach Workshop",
+          "choice_text": "Embrace the teaching opportunity for the chance to share your passion, managing time effectively to balance preparation with personal projects.",
+          "change": [2, -1, 1]
+        },
+        {
+          "preview": "Prioritize Personal Projects",
+          "choice_text": "Prioritize your personal creative endeavors, expressing appreciation for the teaching offer while suggesting alternative times or formats for involvement.",
+          "change": [1, 1, -1]
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "prompt_text": "You're asked to represent your team in a high-stakes competition, but it requires intensive preparation and may affect your work-life balance. Do you take on the challenge for team recognition, or prioritize your well-being?",
+      "choices": [
+        {
+          "preview": "Represent Team in Competition",
+          "choice_text": "Take on the challenge for team recognition, but establish a balanced schedule, communicate with your team, and prioritize well-being throughout the process.",
+          "change": [3, -2, -1]
+        },
+        {
+          "preview": "Prioritize Well-Being",
+          "choice_text": "Prioritize your well-being, expressing support for the team and suggesting alternative ways to contribute without compromising work-life balance.",
+          "change": [1, 2, 0]
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "prompt_text": "You're offered a chance to participate in a prestigious internship abroad, but it requires a significant financial investment. Do you accept for the valuable experience, or prioritize financial considerations?",
+      "choices": [
+        {
+          "preview": "Accept Prestigious Internship",
+          "choice_text": "Accept the internship for the valuable experience, but explore financial aid options, scholarships, or part-time work to support the investment.",
+          "change": [3, -2, 1]
+        },
+        {
+          "preview": "Prioritize Financial Considerations",
+          "choice_text": "Prioritize financial considerations, expressing interest in the internship and exploring alternative opportunities that align with your budget.",
+          "change": [1, 1, -1]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "prompt_text": "You're given the opportunity to co-author a research paper with a respected scholar, but it requires extensive collaboration and potential revisions. Do you accept for the academic recognition, or prioritize your independent research projects?",
+      "choices": [
+        {
+          "preview": "Co-author Research Paper",
+          "choice_text": "Accept the opportunity to co-author for academic recognition, but communicate expectations, establish a collaborative process, and find ways to balance with independent projects.",
+          "change": [2, -1, 1]
+        },
+        {
+          "preview": "Prioritize Independent Research",
+          "choice_text": "Prioritize your independent research projects, expressing gratitude for the collaboration offer while suggesting potential areas for future joint work.",
+          "change": [1, 2, -1]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "prompt_text": "Your friend invites you to join a startup venture they're passionate about, but it involves a level of financial risk. Do you join for the entrepreneurial experience, or prioritize financial stability?",
+      "choices": [
+        {
+          "preview": "Join Startup Venture",
+          "choice_text": "Join the startup venture for the entrepreneurial experience, but discuss financial concerns with your friend and explore risk mitigation strategies.",
+          "change": [3, -2, -1]
+        },
+        {
+          "preview": "Prioritize Financial Stability",
+          "choice_text": "Prioritize financial stability, expressing support for your friend and exploring alternative ways to contribute to the venture without risking your financial security.",
+          "change": [1, 2, 0]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "prompt_text": "You're offered a chance to showcase your artwork in a prestigious gallery, but the exhibition dates overlap with a planned family vacation. Do you seize the artistic opportunity or prioritize family time?",
+      "choices": [
+        {
+          "preview": "Showcase Artwork in Gallery",
+          "choice_text": "Seize the artistic opportunity to showcase your artwork, but communicate with your family, explore alternative vacation dates, and plan a special celebration.",
+          "change": [2, -1, 1]
+        },
+        {
+          "preview": "Prioritize Family Time",
+          "choice_text": "Prioritize family time, expressing gratitude for the gallery offer and exploring ways to participate in future exhibitions.",
+          "change": [1, 0, -1]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "prompt_text": "You're asked to contribute to a collaborative charity initiative at work, but it involves additional time outside regular hours. Do you participate for the social impact, or prioritize your work-life balance?",
+      "choices": [
+        {
+          "preview": "Contribute to Charity Initiative",
+          "choice_text": "Participate in the charity initiative for the social impact, but establish clear boundaries, communicate with your team, and find ways to balance with work-life commitments.",
+          "change": [2, -1, 1]
+        },
+        {
+          "preview": "Prioritize Work-Life Balance",
+          "choice_text": "Prioritize your work-life balance, expressing support for the charity initiative and suggesting alternative ways to contribute within regular working hours.",
+          "change": [1, 1, -1]
+        }
+      ]
+    }
+  ],
+  "Scores": []
+}
