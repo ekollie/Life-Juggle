@@ -1,3 +1,11 @@
+body{
+    background-image: url(stickman_crossroads_new.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: 1200px;
+}
+
 /*Positioning of Group A,B,C */
 .group-container {
   display: flex;
@@ -11,9 +19,45 @@
   width: 100px;
   padding: 20px;
   margin: 50px;
-  border: 10px;
-  background-color: blue;
+  border: 10px solid black; 
+  background-color: white;
   color: red;
+}
+
+#group_A{
+    background-image: url(stickman_social.jpeg);
+    background-repeat: no-repeat;
+    background-size: 210px;
+    background-position: center;
+    height: 100px;
+        width: 100px;
+        padding: 20px;
+        margin: 50px;
+        border: 10px solid black;
+}
+
+#group_B {
+    background-image: url(stickman_school.png);
+    background-repeat: no-repeat;
+    background-size: 210px;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid black;
+}
+
+#group_C {
+    background-image: url(stickman_health.png);
+    background-repeat: no-repeat;
+    background-size: 210px;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid black;
 }
 
 /*Positioning of Prompt Box */
@@ -29,7 +73,8 @@
   width: 400px;
   padding: 40px;
   margin: 60px;
-  border: 10px;
+  border: 10px solid black;
+  border-radius: 10px;
   background-color: yellow;
   color: red;
 }
