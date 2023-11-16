@@ -58,11 +58,16 @@ function statMinChecker(stat) {
     gameOver();
   }
 }
+
+let loss = false;
 function gameOver() {
-  textBox.innerText = "Game over";
-  button1.remove();
-  button2.remove();
-  createForm();
+  if(!loss){
+    textBox.innerText = "Game over";
+    button1.remove();
+    button2.remove();
+    createForm();
+    loss = true;
+  }
 }
 
 // Gameplay
