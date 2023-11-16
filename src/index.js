@@ -108,7 +108,7 @@ fetch(scenariosUrl)
         .then((res) => res.json())
         .then((scenarios) => {
           statAdder(scenarios[currScenario.id - 1].choices[1].change);
-          let rng = randomNumberGenerator(scenarios.length);
+          let rng = randomNumberGenerator(scenarios.length - 1) + 1;
           currScenario = scenarios[rng];
           fillTextBox(currScenario);
           groupStats.forEach(statMinChecker);
@@ -222,7 +222,7 @@ function showScoreBoard() {
 
 // Allows for multiplier variable to be adjusted
 document.addEventListener("keydown", (e) => {
-  if (e.key === "Backslash") {
+  if (e.key === "/") {
     multiplier = prompt("Decision multiplier");
   }
   console.log(multiplier);
