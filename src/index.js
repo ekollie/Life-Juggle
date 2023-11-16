@@ -58,12 +58,17 @@ function statMinChecker(stat) {
     gameOver();
   }
 }
+
+let loss = false 
 function gameOver() {
-  textBox.innerText = "Game over";
-  button1.remove();
-  button2.remove();
-  createForm();
-}
+  if (!loss){
+    textBox.innerText = "Game over";
+    button1.remove();
+    button2.remove();
+    createForm();
+    loss = true; 
+  }
+  }
 
 // Gameplay
 fetch(scenariosUrl)
@@ -91,7 +96,7 @@ fetch(scenariosUrl)
         .then((res) => res.json())
         .then((scenarios) => {
           statAdder(scenarios[currScenario.id - 1].choices[1].change);
-          let rng = randomNumberGenerator(scenarios.length);
+          let rng = randomNumberGenerator(scenarios.length - 1) + 1;
           currScenario = scenarios[rng];
           fillTextBox(currScenario);
           groupStats.forEach(statMinChecker);
