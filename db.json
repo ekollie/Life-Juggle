@@ -7,12 +7,20 @@
         {
           "preview": "Start",
           "choice_text": "Manage the balance between the different dimensions of your life",
-          "change": [0, 0, 0]
+          "change": [
+            0,
+            0,
+            0
+          ]
         },
         {
           "preview": "Start",
           "choice_text": "Click i to change decision weight (development tool)",
-          "change": [0, 0, 0]
+          "change": [
+            0,
+            0,
+            0
+          ]
         }
       ]
     },
@@ -23,12 +31,20 @@
         {
           "preview": "Join Study Group",
           "choice_text": "Participate in the study group for collaborative learning and social support, but establish boundaries to ensure productive study time.",
-          "change": [2, 2, -1]
+          "change": [
+            2,
+            2,
+            -1
+          ]
         },
         {
           "preview": "Study Independently",
           "choice_text": "Choose to study independently to maintain focus and control over your study environment, ensuring efficient preparation for the exam.",
-          "change": [-1, 3, 1]
+          "change": [
+            -1,
+            3,
+            1
+          ]
         }
       ]
     },
@@ -39,12 +55,20 @@
         {
           "preview": "Attend Family Gathering",
           "choice_text": "Participate in the family gathering for bonding but communicate your study commitments, perhaps negotiating specific study times during the event.",
-          "change": [2, -3, -2]
+          "change": [
+            2,
+            -3,
+            -2
+          ]
         },
         {
           "preview": "Prioritize Studies",
           "choice_text": "Choose to stay home and focus on studies, emphasizing the importance of academic commitments while expressing willingness to engage in family activities at a more suitable time.",
-          "change": [-2, 3, 2]
+          "change": [
+            -2,
+            3,
+            2
+          ]
         }
       ]
     },
@@ -55,12 +79,20 @@
         {
           "preview": "Join the Road Trip",
           "choice_text": "Embark on the road trip for a spontaneous adventure, but communicate the need for designated study breaks to balance socializing with academic commitments.",
-          "change": [3, -2, -2]
+          "change": [
+            3,
+            -2,
+            -2
+          ]
         },
         {
           "preview": "Prioritize Exams",
           "choice_text": "Opt to decline the road trip to concentrate on exam preparation, emphasizing the importance of academic responsibilities and proposing alternative plans for after exams.",
-          "change": [-1, 3, 2]
+          "change": [
+            -1,
+            3,
+            2
+          ]
         }
       ]
     },
@@ -71,12 +103,20 @@
         {
           "preview": "Seek Support",
           "choice_text": "Reach out to friends or family for emotional support and assistance in managing workload, fostering a collaborative approach to cope with stress.",
-          "change": [3, -2, -1]
+          "change": [
+            3,
+            -2,
+            -1
+          ]
         },
         {
           "preview": "Manage Stress Independently",
           "choice_text": "Choose to manage stress independently to avoid burdening others, but consider establishing healthier coping mechanisms and self-care routines.",
-          "change": [-2, 2, 1]
+          "change": [
+            -2,
+            2,
+            1
+          ]
         }
       ]
     },
@@ -87,12 +127,20 @@
         {
           "preview": "Volunteer for Charity Event",
           "choice_text": "Sign up to volunteer for the charity event, contributing to the community and gaining valuable social experiences, while balancing commitments.",
-          "change": [2, -1, -1]
+          "change": [
+            2,
+            -1,
+            -1
+          ]
         },
         {
           "preview": "Focus on Personal Activities",
           "choice_text": "Decline the volunteer opportunity to focus on personal activities and school commitments, ensuring a balance between community engagement and personal responsibilities.",
-          "change": [-1, 1, 1]
+          "change": [
+            -1,
+            1,
+            1
+          ]
         }
       ]
     },
@@ -103,12 +151,20 @@
         {
           "preview": "Join the Gaming Session",
           "choice_text": "Participate for social fun but set a time limit to ensure enough sleep for health and school.",
-          "change": [2, -2, -1]
+          "change": [
+            2,
+            -2,
+            -1
+          ]
         },
         {
           "preview": "Prioritize Sleep",
           "choice_text": "Opt for a good night's sleep, ensuring you're well-rested for school, and suggest an alternative time for gaming.",
-          "change": [1, 2, 2]
+          "change": [
+            1,
+            2,
+            2
+          ]
         }
       ]
     },
@@ -119,12 +175,20 @@
         {
           "preview": "Attend the Party",
           "choice_text": "Go to the party for socializing but communicate your project deadline and set a time to leave early to work on it.",
-          "change": [3, -2, -2]
+          "change": [
+            3,
+            -2,
+            -2
+          ]
         },
         {
           "preview": "Focus on the Project",
           "choice_text": "Choose to stay home and prioritize completing the project, emphasizing its importance over social events.",
-          "change": [-1, 3, 2]
+          "change": [
+            -1,
+            3,
+            2
+          ]
         }
       ]
     },
@@ -135,12 +199,20 @@
         {
           "preview": "Join Yoga Class",
           "choice_text": "Participate in the yoga class for health benefits and social interaction, ensuring a balanced approach to well-being.",
-          "change": [2, -1, 1]
+          "change": [
+            2,
+            -1,
+            1
+          ]
         },
         {
           "preview": "Study During Lunch",
           "choice_text": "Opt to study during lunch to prepare for the exam, prioritizing academic commitments over physical activity and socializing.",
-          "change": [-1, 2, -1]
+          "change": [
+            -1,
+            2,
+            -1
+          ]
         }
       ]
     },
@@ -151,12 +223,20 @@
         {
           "preview": "Attend Networking Event",
           "choice_text": "Attend the networking event to enhance professional opportunities, but communicate with your friend and plan a belated celebration.",
-          "change": [3, -1, 0]
+          "change": [
+            3,
+            -1,
+            0
+          ]
         },
         {
           "preview": "Celebrate Friend's Birthday",
           "choice_text": "Celebrate your friend's birthday, prioritizing personal connections, and express your commitment to professional growth on another occasion.",
-          "change": [2, 0, -1]
+          "change": [
+            2,
+            0,
+            -1
+          ]
         }
       ]
     },
@@ -167,12 +247,20 @@
         {
           "preview": "Join Cultural Exchange Program",
           "choice_text": "Opt for the cultural exchange program for diverse experiences, but explore possibilities to defer the internship or find alternative remote work.",
-          "change": [4, -2, 1]
+          "change": [
+            4,
+            -2,
+            1
+          ]
         },
         {
           "preview": "Prioritize Internship",
           "choice_text": "Prioritize the internship to gain industry-specific skills, expressing gratitude for the opportunity and exploring cultural experiences at a later time.",
-          "change": [-1, 3, -1]
+          "change": [
+            -1,
+            3,
+            -1
+          ]
         }
       ]
     },
@@ -183,12 +271,20 @@
         {
           "preview": "Help Friend at Work",
           "choice_text": "Agree to cover for your friend, prioritizing friendship and offering support, but communicate any potential limitations or conditions.",
-          "change": [2, -1, -1]
+          "change": [
+            2,
+            -1,
+            -1
+          ]
         },
         {
           "preview": "Prioritize Own Commitments",
           "choice_text": "Politely decline to cover for your friend, emphasizing your own commitments, and suggest alternative solutions if possible.",
-          "change": [-1, 1, 0]
+          "change": [
+            -1,
+            1,
+            0
+          ]
         }
       ]
     },
@@ -199,12 +295,20 @@
         {
           "preview": "Pursue Scholarship Through Community Service",
           "choice_text": "Invest time in community service for the scholarship, balancing financial benefits with the potential for personal growth and contribution.",
-          "change": [3, 0, 1]
+          "change": [
+            3,
+            0,
+            1
+          ]
         },
         {
           "preview": "Focus on Career-Aligned Activities",
           "choice_text": "Prioritize activities aligned with your career goals, considering alternative financial options and focusing on professional development.",
-          "change": [1, 0, 0]
+          "change": [
+            1,
+            0,
+            0
+          ]
         }
       ]
     },
@@ -215,12 +319,20 @@
         {
           "preview": "Collaborate on Creative Project",
           "choice_text": "Join your classmates for the creative project, emphasizing the importance of the opportunity and exploring ways to make up for missed family time.",
-          "change": [2, -1, 0]
+          "change": [
+            2,
+            -1,
+            0
+          ]
         },
         {
           "preview": "Prioritize Family Gathering",
           "choice_text": "Prioritize the family gathering, communicating the importance of family and seeking alternative times to collaborate with classmates.",
-          "change": [1, 0, -1]
+          "change": [
+            1,
+            0,
+            -1
+          ]
         }
       ]
     },
@@ -231,12 +343,20 @@
         {
           "preview": "Accept Leadership Role",
           "choice_text": "Embrace the leadership role for personal growth and impact, but establish clear boundaries and time management strategies.",
-          "change": [3, -2, -1]
+          "change": [
+            3,
+            -2,
+            -1
+          ]
         },
         {
           "preview": "Prioritize Lighter Workload",
           "choice_text": "Prioritize a lighter workload to maintain balance, expressing gratitude for the opportunity and offering support in alternative capacities.",
-          "change": [1, 1, 0]
+          "change": [
+            1,
+            1,
+            0
+          ]
         }
       ]
     },
@@ -247,12 +367,20 @@
         {
           "preview": "Engage in Extra Credit Project",
           "choice_text": "Take on the extra credit project for academic benefits, managing time effectively and ensuring it complements your current assignments.",
-          "change": [2, -1, 1]
+          "change": [
+            2,
+            -1,
+            1
+          ]
         },
         {
           "preview": "Focus on Current Assignments",
           "choice_text": "Prioritize your current assignments, appreciating the opportunity but recognizing the importance of managing workload.",
-          "change": [1, 2, -1]
+          "change": [
+            1,
+            2,
+            -1
+          ]
         }
       ]
     },
@@ -263,12 +391,20 @@
         {
           "preview": "Join Volunteer Trip Abroad",
           "choice_text": "Opt for the volunteer trip abroad for global service, communicating with your family to find alternative dates for the vacation.",
-          "change": [3, -1, 1]
+          "change": [
+            3,
+            -1,
+            1
+          ]
         },
         {
           "preview": "Prioritize Family Vacation",
           "choice_text": "Prioritize the planned family vacation, expressing interest in global service and exploring other volunteer opportunities that align with your schedule.",
-          "change": [2, 0, -1]
+          "change": [
+            2,
+            0,
+            -1
+          ]
         }
       ]
     },
@@ -279,12 +415,20 @@
         {
           "preview": "Participate in Hackathon",
           "choice_text": "Join the hackathon for the collaborative experience, ensuring it complements your personal project goals and scheduling dedicated time for both.",
-          "change": [2, -1, 0]
+          "change": [
+            2,
+            -1,
+            0
+          ]
         },
         {
           "preview": "Prioritize Personal Project",
           "choice_text": "Prioritize your personal project, expressing appreciation for the invitation and suggesting alternative times for collaborative activities.",
-          "change": [1, 1, 0]
+          "change": [
+            1,
+            1,
+            0
+          ]
         }
       ]
     },
@@ -295,12 +439,20 @@
         {
           "preview": "Lead High-Profile Project",
           "choice_text": "Accept the opportunity to lead the high-profile project for career advancement, negotiating clear expectations and potential compensations.",
-          "change": [4, -2, -2]
+          "change": [
+            4,
+            -2,
+            -2
+          ]
         },
         {
           "preview": "Prioritize Work-Life Balance",
           "choice_text": "Prioritize work-life balance, expressing gratitude for the opportunity while ensuring boundaries and discussing alternatives to mitigate overtime.",
-          "change": [2, 1, 0]
+          "change": [
+            2,
+            1,
+            0
+          ]
         }
       ]
     },
@@ -311,12 +463,20 @@
         {
           "preview": "Collaborate on Research Project",
           "choice_text": "Accept the opportunity to collaborate for the valuable experience, balancing travel commitments with a well-defined schedule and clear expectations.",
-          "change": [3, -2, -1]
+          "change": [
+            3,
+            -2,
+            -1
+          ]
         },
         {
           "preview": "Prioritize Stability",
           "choice_text": "Prioritize stability and avoid frequent travel, expressing gratitude for the opportunity while seeking alternative ways to collaborate or contribute remotely.",
-          "change": [1, 1, 0]
+          "change": [
+            1,
+            1,
+            0
+          ]
         }
       ]
     },
@@ -327,12 +487,20 @@
         {
           "preview": "Speak at Conference",
           "choice_text": "Accept the speaking opportunity for professional exposure, but communicate with your sibling, explore alternative ways to participate, and plan a special celebration.",
-          "change": [3, -1, 0]
+          "change": [
+            3,
+            -1,
+            0
+          ]
         },
         {
           "preview": "Prioritize Family Commitment",
           "choice_text": "Prioritize your sibling's important life event, expressing appreciation for the invitation and exploring opportunities for future speaking engagements.",
-          "change": [2, 0, -1]
+          "change": [
+            2,
+            0,
+            -1
+          ]
         }
       ]
     },
@@ -343,12 +511,20 @@
         {
           "preview": "Accept Mentorship Role",
           "choice_text": "Accept the mentorship role for the opportunity to contribute, but establish clear boundaries and communicate expectations to balance the additional workload.",
-          "change": [2, -1, 1]
+          "change": [
+            2,
+            -1,
+            1
+          ]
         },
         {
           "preview": "Prioritize Existing Workload",
           "choice_text": "Prioritize your existing workload, expressing appreciation for the mentorship offer while suggesting alternative ways to support junior colleagues.",
-          "change": [1, 1, -1]
+          "change": [
+            1,
+            1,
+            -1
+          ]
         }
       ]
     },
@@ -359,12 +535,20 @@
         {
           "preview": "Lead Community Service Project",
           "choice_text": "Take on the leadership role for community impact, but communicate with your work team, delegate tasks, and manage time effectively to meet the deadline.",
-          "change": [2, -1, 1]
+          "change": [
+            2,
+            -1,
+            1
+          ]
         },
         {
           "preview": "Prioritize Work Commitments",
           "choice_text": "Prioritize meeting work commitments, expressing interest in community service and exploring alternative ways to contribute or support the project.",
-          "change": [1, 2, -1]
+          "change": [
+            1,
+            2,
+            -1
+          ]
         }
       ]
     },
@@ -375,12 +559,20 @@
         {
           "preview": "Teach Workshop",
           "choice_text": "Embrace the teaching opportunity for the chance to share your passion, managing time effectively to balance preparation with personal projects.",
-          "change": [2, -1, 1]
+          "change": [
+            2,
+            -1,
+            1
+          ]
         },
         {
           "preview": "Prioritize Personal Projects",
           "choice_text": "Prioritize your personal creative endeavors, expressing appreciation for the teaching offer while suggesting alternative times or formats for involvement.",
-          "change": [1, 1, -1]
+          "change": [
+            1,
+            1,
+            -1
+          ]
         }
       ]
     },
@@ -391,12 +583,20 @@
         {
           "preview": "Represent Team in Competition",
           "choice_text": "Take on the challenge for team recognition, but establish a balanced schedule, communicate with your team, and prioritize well-being throughout the process.",
-          "change": [3, -2, -1]
+          "change": [
+            3,
+            -2,
+            -1
+          ]
         },
         {
           "preview": "Prioritize Well-Being",
           "choice_text": "Prioritize your well-being, expressing support for the team and suggesting alternative ways to contribute without compromising work-life balance.",
-          "change": [1, 2, 0]
+          "change": [
+            1,
+            2,
+            0
+          ]
         }
       ]
     },
@@ -407,12 +607,20 @@
         {
           "preview": "Accept Prestigious Internship",
           "choice_text": "Accept the internship for the valuable experience, but explore financial aid options, scholarships, or part-time work to support the investment.",
-          "change": [3, -2, 1]
+          "change": [
+            3,
+            -2,
+            1
+          ]
         },
         {
           "preview": "Prioritize Financial Considerations",
           "choice_text": "Prioritize financial considerations, expressing interest in the internship and exploring alternative opportunities that align with your budget.",
-          "change": [1, 1, -1]
+          "change": [
+            1,
+            1,
+            -1
+          ]
         }
       ]
     },
@@ -423,12 +631,20 @@
         {
           "preview": "Co-author Research Paper",
           "choice_text": "Accept the opportunity to co-author for academic recognition, but communicate expectations, establish a collaborative process, and find ways to balance with independent projects.",
-          "change": [2, -1, 1]
+          "change": [
+            2,
+            -1,
+            1
+          ]
         },
         {
           "preview": "Prioritize Independent Research",
           "choice_text": "Prioritize your independent research projects, expressing gratitude for the collaboration offer while suggesting potential areas for future joint work.",
-          "change": [1, 2, -1]
+          "change": [
+            1,
+            2,
+            -1
+          ]
         }
       ]
     },
@@ -439,12 +655,20 @@
         {
           "preview": "Join Startup Venture",
           "choice_text": "Join the startup venture for the entrepreneurial experience, but discuss financial concerns with your friend and explore risk mitigation strategies.",
-          "change": [3, -2, -1]
+          "change": [
+            3,
+            -2,
+            -1
+          ]
         },
         {
           "preview": "Prioritize Financial Stability",
           "choice_text": "Prioritize financial stability, expressing support for your friend and exploring alternative ways to contribute to the venture without risking your financial security.",
-          "change": [1, 2, 0]
+          "change": [
+            1,
+            2,
+            0
+          ]
         }
       ]
     },
@@ -455,12 +679,20 @@
         {
           "preview": "Showcase Artwork in Gallery",
           "choice_text": "Seize the artistic opportunity to showcase your artwork, but communicate with your family, explore alternative vacation dates, and plan a special celebration.",
-          "change": [2, -1, 1]
+          "change": [
+            2,
+            -1,
+            1
+          ]
         },
         {
           "preview": "Prioritize Family Time",
           "choice_text": "Prioritize family time, expressing gratitude for the gallery offer and exploring ways to participate in future exhibitions.",
-          "change": [1, 0, -1]
+          "change": [
+            1,
+            0,
+            -1
+          ]
         }
       ]
     },
@@ -471,12 +703,20 @@
         {
           "preview": "Contribute to Charity Initiative",
           "choice_text": "Participate in the charity initiative for the social impact, but establish clear boundaries, communicate with your team, and find ways to balance with work-life commitments.",
-          "change": [2, -1, 1]
+          "change": [
+            2,
+            -1,
+            1
+          ]
         },
         {
           "preview": "Prioritize Work-Life Balance",
           "choice_text": "Prioritize your work-life balance, expressing support for the charity initiative and suggesting alternative ways to contribute within regular working hours.",
-          "change": [1, 1, -1]
+          "change": [
+            1,
+            1,
+            -1
+          ]
         }
       ]
     },
@@ -513,5 +753,11 @@
       ]
     }
   ],
-  "Scores": []
+  "Scores": [
+    {
+      "name": "ibrahima",
+      "score": 52,
+      "id": 1
+    }
+  ]
 }
