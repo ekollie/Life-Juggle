@@ -2,11 +2,11 @@
 
 # N.I.L.E Group
 
-Our project is a decision based game in where players must manage the power balance between three interests groups through decisions that must be selected based on a given scenario
+Our project is a decision based game in where players must balance three stats representing their social life, school life, and well-being.
 
-Database: The database will be locally stored and contain every scenario with their encompanying choices and the change in power per interest group per choice. As a stretch goal, a second object containing an array of high scores will used to record and display after a game over.
+Database: The database will be locally stored and contain every scenario with their encompanying choices and the effect on each stat per choice. As a stretch goal, a second object containing an array of high scores will used to record and display after a game over.
 
-MVP: players willbe able to select between two options on how to respond to a given text scenario. The player's decisions will affect the power balance between the three interest groups. The game ends when the power of any of the three groups goes above or below a certain threshold. The power of each other groups is visually represented on screen.
+MVP: players will be able to select between two options on how to respond to a given text scenario. Every decions will have an effect on atleast two stats and could include a simulatneous increase and decrease. The game ends when a stat drops below zero. The player will be able to view their score on a leaderboard displaying the top three scores of all time.
 
 Stretch goals: Core UI elements are animated, Money is added as core gameplay component that must be managed, the amount of decisions that the player made before a game over is persisted as a score and listed on a scoreboard.
 
