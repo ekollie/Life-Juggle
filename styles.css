@@ -143,18 +143,19 @@ body {
   text-align: center;
   height: 2vh;
   
-  font-family: "Zuka Doodle", sans-serif;
+  font-family: "Doodle_Head";
   font-weight: bold;
   font-size: x-large;
   /* -webkit-text-fill-color: white; */
-  text-shadow: 0px 0px 7px maroon, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+  text-shadow: 0px 0px 7px white, 0 0 1em darkgrey, 0 0 0.2em darkgrey;
+  
   width: 100%;
 }
 
 #choice_expanded p {
   /* max-width: 600px;  */
   margin: 0 auto;
-  color: white;
+  color: maroon;
 }
 
 .button {
@@ -170,7 +171,15 @@ body {
   font-size: 14px;
   color: white;
 }
+
 .button:hover {
   transform: translateY(-7px);
   transform: scale(1.1);
+}
+
+
+p:hover {
+  text-decoration: underline;
+  /* Let's change the cursor on hover */
+  cursor: pointer;
 }

@@ -14,8 +14,8 @@ let groupStats = [50, 50, 50];
 // Text Box
 const textBox = document.getElementById("textBox");
 const choiceExpanded = document.getElementById("choice_expanded");
-choiceExpanded.style.color = "white";
-choiceExpanded.style.fontSize = "large";
+//choiceExpanded.style.color = "maroon";
+//choiceExpanded.style.fontSize = "large";
 
 // This will change the speed of the game by making each decision more impactful to overall score
 let multiplier = 1;
@@ -70,6 +70,7 @@ function statMinChecker(stat) {
 }
 
 // Determines what happens when the game ends
+let loss = false;
 function gameOver() {
   if(!loss){
     textBox.innerText = "Game over";
